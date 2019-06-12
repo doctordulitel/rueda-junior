@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="es-ES">
+<html lang="en-US">
 
 <head>
     <meta name="viewport" content="initial-scale=1.0,width=device-width,maximum-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <!--PAGE TITLE-->
-    <title>Rueda junior es ahora QUENOTECUENTENCALORIAS</title>
+    <title>Synopsis | VYSUAL - In Select Theaters December 25</title>
 
     <!--GOOGLE FONT CSS-->
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600' type='text/css' media='all' />
@@ -17,122 +17,72 @@
     <link rel='stylesheet' href='style.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/respond.css' type='text/css' media='all' />
     <link rel='stylesheet' href='font-awesome-4.3.0/css/font-awesome.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='background.css' type='text/css' media='all' />
 
+    <!--SITE URL SETTING FOR AJAX REQUESTS-->
+    <script>
+        var siteUrl = 'http://themolitor.com/vysual_html';
+    </script>
 
-    <!--MAGNIFIC POPUP-->
-
-    <link rel="stylesheet" href="dist/jquery.magnific-popup.js">
-    <link rel="stylesheet" href="dist/jquery.magnific-popup.min.js">
-    <link rel="stylesheet" href="dist/magnific-popup.css">
-
-
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            outline: none;
-        }
-        
-        .content {
-            text-align: center;
-        }
-        
-        body {
-            background-image: url(images/portada-angel-rueda-1.jpg);
-            background-position: top center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            overflow: hidden;
-        }
-        
-        .mfp-hide {
-            display: none !important;
-        }
-        
-        .button {
-            margin-top: 10%;
-            padding: 20px 40px;
-            border: white 3px solid;
-            border-radius: 50px;
-            font-size: 27px;
-            font-size: 2.7rem;
-            font-weight: bold;
-            color: white;
-            display: inline-block;
-        }
-        
-        .button fa {
-            margin-left: 20px;
-        }
-        
-        .button:hover,
-        .button:focus {
-            background: white;
-            color: black;
-            outline: none;
-        }
-    </style>
 </head>
 
-<body>
+<body class="page page-template-page-center page-template-page-center-php ajax-on">
 
-
-    <div>
+    <div id="contentContainer">
 
         <!--LOGO-->
         <a id="logo" href="http://www.quenotecuentencalorias.com/"><img src="images/logotipo-rueda-junior.png" alt="RUEDA JUNIOR" /></a>
         <!--end logo-->
-        <!--REVIEWS-->
 
-        <div id="reviews">
-            <div class="review">
-                <div class="reviewContent">
-                    <p>"Hay que comer de todo pero equilibradamente…¡Con frases como esta nos están jodiendo la vida!"</p>
-                </div>
-                <div class="reviewTitle">Angel rueda</div>
+        <!--MENU CONTROL-->
+
+
+        <!--AJAX CONTAINER-->
+        <div id="ajax-content">
+
+            <!--PAGE INFO FOR UPDATING BODY CLASS AND DOC TITLE-->
+            <div id="page-info" data-page-title="Synopsis | VYSUAL - In Select Theaters December 25" class="page page-template-page-center page-template-page-center-php ajax-on"></div>
+
+            <div id="pageContent" class="entry center-page page-page">
+                <h1 id="page-title">"Hay que comer de todo pero equilibradamente…¡Con frases como esta nos están jodiendo la vida!"</h1>
+                <p>Angel rueda</p>
+                <iframe width="70%" height="420" src="https://www.youtube.com/embed/AadiIrrdHUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
             </div>
 
         </div>
-        <!--end reviews-->
+        <!--END AJAX CONTAINER-->
+
+        <!--FULL SEARCH BAR-->
+        <form role="search" method="get" id="full-search" action="http://themes.themolitor.com/vysual/">
+            <input type="text" value="Search Site..." onfocus="this.value='';" name="s" id="big-input" />
+        </form>
+
+        <!--AUDIO PLAYER-->
+
+
         <!--SOCIAL ICONS-->
         <div id="socialIcons">
 
+            <a target="_blank" id="link-facebook" data-title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" id="link-twitter" data-title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+            <a target="_blank" id="link-youtube" data-title="YouTube" href="#"><i class="fa fa-youtube-play"></i></a>
 
         </div>
 
         <!--IMAGE SLIDESHOW-->
-
-
+        <div id="headerImages">
+            <div class="header-image activeBg" style="background-image:url(images/portada-angel-rueda-1.jpg);"><img src="images/portada-angel-rueda-1.jpg" alt=""></div>
+        </div>
         <!--end headerImages-->
 
         <!--LOADING ANIMATION-->
-
+        <div id="loading-page"></div>
 
         <!--CONTENT COVER-->
+        <div id="contentCover"></div>
 
     </div>
     <!--end contentContainer-->
-    <div id="play" class="content">
-
-        <div style="margin-top: 4%">
-            <iframe width="860" height="420" src="https://www.youtube.com/embed/AadiIrrdHUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-
-
-    </div>
-
 
     <div id="footerContainer">
         <div id="footer">
@@ -141,10 +91,13 @@
             <div id="vys-credits">
 
                 <!--FOOTER LOGO-->
+
                 <!--CREDITS TEXT-->
                 <span>RUEDA JUNIOR ES AHORA QUENOTECUENTENCALORIAS</span>
 
                 <a id="footer-logo" href="http://www.quenotecuentencalorias.com/"><img src="images/logo-top-qntcc.png" alt="" /></a>
+
+
 
                 <!--PG-13 RATING-->
 
@@ -168,12 +121,15 @@
     </div>
     <!--end footerContainer-->
 
+
+
     <!--JavaScript-->
-
-
-
-
-
+    <script type='text/javascript' src='scripts/jquery.js'></script>
+    <script type='text/javascript' src='scripts/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='zoom_box/zoom_box.js'></script>
+    <script type='text/javascript' src='scripts/spin.js'></script>
+    <script type='text/javascript' src='scripts/custom.js'></script>
+    <script type='text/javascript' src='scripts/retina.js'></script>
 
 </body>
 
