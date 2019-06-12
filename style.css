@@ -2449,7 +2449,7 @@ dd {
 #pageContent {
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 5%;
     width: 500px;
     max-width: 80% margin-left: -250px;
     z-index: 98;
